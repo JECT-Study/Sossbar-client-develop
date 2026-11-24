@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/*
+ * 디자인 토큰 자리. 디자인 시스템이 정해지면 여기의 CSS 변수를 토큰 값으로 바꾸고
+ * @theme에 연결해 Tailwind 유틸리티(bg-background 등)로 쓴다.
+ */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
