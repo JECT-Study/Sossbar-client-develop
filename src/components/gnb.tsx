@@ -19,7 +19,7 @@ export function Gnb() {
   const [selected, setSelected] = useState<MenuItem | null>(null);
 
   return (
-    <header className="flex h-[60px] w-full shrink-0 items-center justify-center bg-white px-12">
+    <header className="hidden h-[60px] w-full shrink-0 items-center justify-center bg-white px-12 min-[992px]:flex">
       <div className="flex h-full w-full max-w-[1060px] items-center justify-between">
         <div className="flex h-full min-w-0 items-center gap-10">
           <Link href="/" className="shrink-0">
