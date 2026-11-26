@@ -1,6 +1,6 @@
 # GOROK-4th-client
 
-소스바(Sossbar) 웹 프론트엔드
+소스바(Sossbar) 웹 프론트엔드 (고도화 레포지토리)
 
 ## 기술 스택
 
